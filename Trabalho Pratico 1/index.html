@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ColorPicker.html</title>
+    <link rel="stylesheet" type="text/css" href="color-picker-style.css" />
+  </head>
+  <body>
+    <h1>Trabalho Pratico 1</h1>
+    <div class="centered-content">
+      <table>
+        <tr>
+          <td>
+            R (Vermelho):
+          </td>
+          <td>
+            <input id="picker-red" type="range" min="0" max="255" value="0" />
+          </td>
+          <td>
+            <input id="input-red" type="text" value="0" disabled />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            G (Verde):
+          </td>
+          <td>
+            <input id="picker-green" type="range" min="0" max="255" value="0" />
+          </td>
+          <td>
+            <input id="input-green" type="text" value="0" disabled />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            B (Azul):
+          </td>
+          <td>
+            <input id="picker-blue" type="range" min="0" max="255" value="0" />
+          </td>
+          <td>
+            <input id="input-blue" type="text" value="0" disabled />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <div id="squareColor" class="square100px"></div>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <script src="color-picker.js"></script>
+  </body>
+</html>
